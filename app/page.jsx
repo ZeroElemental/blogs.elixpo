@@ -3,7 +3,7 @@ import { getSession } from '../lib/auth';
 import { listPublicStories, publicStoryPath } from '../lib/publicDiscovery';
 import { safeJsonLd } from '../src/utils/seoContent';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
 export const metadata = {
